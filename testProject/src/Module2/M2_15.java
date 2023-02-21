@@ -12,7 +12,7 @@ public class M2_15 {
 		System.out.print("\nEnter Second String: ");
 		str2 = sc.next();
 		
-		System.out.print("\nConcatinatio Of String 1 & 2: "+str1.concat(str2));
+		System.out.print("\nConcatinatio Of String First & Second: "+str1.concat(str2));
 		sc.close();
 	}
 }

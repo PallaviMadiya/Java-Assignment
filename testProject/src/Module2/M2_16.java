@@ -13,6 +13,7 @@ public class M2_16 {
 		str1 = sc.next();
 		System.out.print("Enter Second String: ");
 		str2 = sc.next();
+		
 		System.out.println(str1.equals(str2));
 		sc.close();
 	}

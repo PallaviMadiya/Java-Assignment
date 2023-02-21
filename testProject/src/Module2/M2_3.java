@@ -9,8 +9,7 @@ class M2_3{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a year: ");
 		year = sc.nextInt();
-
-		if(year % 2 == 0){
+		if((year % 4 == 0) && (year % 100 != 0 || year % 400 == 0)){
 			System.out.println("Leap year");
 		}
 		else{
