@@ -5,6 +5,7 @@
 package Module2;
 import java.util.*;
 
+
 public class M2_37 {
 	public static void main(String[] args) {
 		int dividend, divisor, quotient;
@@ -26,6 +27,7 @@ public class M2_37 {
 		}
 		catch(Exception e) {
 			System.out.println("Some Error Occured!");
+		
 		}
 	}
 }

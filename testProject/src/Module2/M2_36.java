@@ -15,6 +15,6 @@ public class M2_36 {
 		catch(InputMismatchException e) {
 			System.out.println("Enter an integer value!");
 		}
-		
+		sc.close();
 	}
 }
